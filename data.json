@@ -1,0 +1,119 @@
+{
+  "collected": [
+    {
+      "country": "菲律宾",
+      "flag": "🇵🇭",
+      "city": "马尼拉",
+      "date": "2025.5.12",
+      "photoFront": "assets/photos/philippines-manila-front.jpg",
+      "photoBack": "assets/photos/philippines-manila-back.jpg"
+    },
+    {
+      "country": "马来西亚",
+      "flag": "🇲🇾",
+      "city": "仙本纳",
+      "date": "2024.2.12",
+      "photoFront": "assets/photos/malaysia-semporna-front.jpg",
+      "photoBack": "assets/photos/malaysia-semporna-back.jpg"
+    },
+    {
+      "country": "日本",
+      "flag": "🇯🇵",
+      "city": "福冈",
+      "date": "2024.2.12",
+      "photoFront": "assets/photos/japan-fukuoka-front.jpg",
+      "photoBack": "assets/photos/japan-fukuoka-back.jpg"
+    },
+    {
+      "country": "澳门",
+      "flag": "🇲🇴",
+      "city": "氹仔",
+      "date": "2022.5.12",
+      "photoFront": "assets/photos/macau-taipa-front.jpg",
+      "photoBack": "assets/photos/macau-taipa-back.jpg"
+    },
+    {
+      "country": "韩国",
+      "flag": "🇰🇷",
+      "city": "首尔",
+      "date": "2026.5.12",
+      "photoFront": "assets/photos/korea-seoul-front.jpg",
+      "photoBack": "assets/photos/korea-seoul-back.jpg"
+    },
+    {
+      "country": "中国",
+      "flag": "🇨🇳",
+      "city": "上海",
+      "date": "2026.5.12",
+      "photoFront": "assets/photos/china-shanghai-front.jpg",
+      "photoBack": "assets/photos/china-shanghai-back.jpg"
+    },
+    {
+      "country": "泰国",
+      "flag": "🇹🇭",
+      "city": "清迈",
+      "date": "2025.3.1",
+      "photoFront": "assets/photos/thailand-chiangmai-front.jpg",
+      "photoBack": "assets/photos/thailand-chiangmai-back.jpg"
+    },
+    {
+      "country": "越南",
+      "flag": "🇻🇳",
+      "city": "胡志明市",
+      "date": "2023.6.8",
+      "photoFront": "assets/photos/vietnam-hochiminh-front.jpg",
+      "photoBack": "assets/photos/vietnam-hochiminh-back.jpg"
+    }
+  ],
+  "missed": [
+    {
+      "country": "美国",
+      "city": "纽约",
+      "date": "2016.5.12",
+      "note": "",
+      "mapSvg": "assets/maps/usa-newyork.svg"
+    },
+    {
+      "country": "智利",
+      "city": "圣地亚哥",
+      "date": "2019.5.12",
+      "note": "",
+      "mapSvg": "assets/maps/chile-santiago.svg"
+    },
+    {
+      "country": "哥伦比亚",
+      "city": "波哥大",
+      "date": "2020.5.12",
+      "note": "",
+      "mapSvg": "assets/maps/colombia-bogota.svg"
+    },
+    {
+      "country": "秘鲁",
+      "city": "利马",
+      "date": "2021.3.5",
+      "note": "",
+      "mapSvg": "assets/maps/peru-lima.svg"
+    },
+    {
+      "country": "哥斯达黎加",
+      "city": "圣荷西",
+      "date": "2021.3.10",
+      "note": "",
+      "mapSvg": "assets/maps/costa-rica-sanjose.svg"
+    },
+    {
+      "country": "加拿大",
+      "city": "多伦多",
+      "date": "2017.8.20",
+      "note": "",
+      "mapSvg": "assets/maps/canada-toronto.svg"
+    },
+    {
+      "country": "老挝",
+      "city": "琅勃拉邦",
+      "date": "2023.11.5",
+      "note": "无麦当劳门店",
+      "mapSvg": "assets/maps/laos-luangprabang.svg"
+    }
+  ]
+}

@@ -38,7 +38,7 @@ function renderCollected(items) {
     card.setAttribute('aria-label', `查看${item.country}${item.city}番茄酱`);
 
     card.innerHTML = `
-      <div class="photo-placeholder"></div>
+      <img class="photo-placeholder" src="${item.photoFront}" alt="${item.country}${item.city}番茄酱">
       <div class="card-title">${item.country} ${item.flag} — ${item.city}</div>
       <div class="card-date">${item.date}</div>
     `;

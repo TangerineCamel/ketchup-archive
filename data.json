@@ -4,23 +4,23 @@
       "country": "菲律宾",
       "flag": "🇵🇭",
       "city": "马尼拉",
-      "date": "2025.5.12",
+      "date": "2025.8.12",
       "photoFront": "assets/photos/philippines-manila-front.jpg",
       "photoBack": "assets/photos/philippines-manila-back.jpg"
     },
     {
       "country": "马来西亚",
       "flag": "🇲🇾",
-      "city": "仙本纳",
-      "date": "2024.2.12",
-      "photoFront": "assets/photos/malaysia-semporna-front.jpg",
-      "photoBack": "assets/photos/malaysia-semporna-back.jpg"
+      "city": "槟城",
+      "date": "2025.5.3",
+      "photoFront": "assets/photos/malaysia-penang-front.jpg",
+      "photoBack": "assets/photos/malaysia-penang-back.jpg"
     },
     {
       "country": "日本",
       "flag": "🇯🇵",
       "city": "福冈",
-      "date": "2024.2.12",
+      "date": "2025.10.7",
       "photoFront": "assets/photos/japan-fukuoka-front.jpg",
       "photoBack": "assets/photos/japan-fukuoka-back.jpg"
     },
@@ -28,7 +28,7 @@
       "country": "澳门",
       "flag": "🇲🇴",
       "city": "氹仔",
-      "date": "2022.5.12",
+      "date": "2025.6.12",
       "photoFront": "assets/photos/macau-taipa-front.jpg",
       "photoBack": "assets/photos/macau-taipa-back.jpg"
     },
@@ -36,7 +36,7 @@
       "country": "韩国",
       "flag": "🇰🇷",
       "city": "首尔",
-      "date": "2026.5.12",
+      "date": "2026.5.5",
       "photoFront": "assets/photos/korea-seoul-front.jpg",
       "photoBack": "assets/photos/korea-seoul-back.jpg"
     },
@@ -44,7 +44,7 @@
       "country": "中国",
       "flag": "🇨🇳",
       "city": "上海",
-      "date": "2026.5.12",
+      "date": "2025.5.12",
       "photoFront": "assets/photos/china-shanghai-front.jpg",
       "photoBack": "assets/photos/china-shanghai-back.jpg"
     },
@@ -52,7 +52,7 @@
       "country": "泰国",
       "flag": "🇹🇭",
       "city": "清迈",
-      "date": "2025.3.1",
+      "date": "2025.4.12",
       "photoFront": "assets/photos/thailand-chiangmai-front.jpg",
       "photoBack": "assets/photos/thailand-chiangmai-back.jpg"
     },
@@ -60,7 +60,7 @@
       "country": "越南",
       "flag": "🇻🇳",
       "city": "胡志明市",
-      "date": "2023.6.8",
+      "date": "2025.6.1",
       "photoFront": "assets/photos/vietnam-hochiminh-front.jpg",
       "photoBack": "assets/photos/vietnam-hochiminh-back.jpg"
     }

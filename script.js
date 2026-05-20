@@ -56,7 +56,7 @@ function renderMissed(items) {
     card.className = 'missed-card';
 
     card.innerHTML = `
-      <div class="map-placeholder"></div>
+      <img class="map-placeholder" src="${item.mapSvg}" alt="${item.country}地图">
       <div class="missed-title">${item.country} — ${item.city}</div>
       <div class="missed-date">${item.date}</div>
       ${item.note ? `<div class="missed-note">（${item.note}）</div>` : ''}

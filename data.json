@@ -69,51 +69,45 @@
     {
       "country": "美国",
       "city": "纽约",
-      "date": "2016.5.12",
-      "note": "",
-      "mapSvg": "assets/maps/usa-newyork.svg"
-    },
-    {
-      "country": "智利",
-      "city": "圣地亚哥",
-      "date": "2019.5.12",
-      "note": "",
-      "mapSvg": "assets/maps/chile-santiago.svg"
-    },
-    {
-      "country": "哥伦比亚",
-      "city": "波哥大",
-      "date": "2020.5.12",
-      "note": "",
-      "mapSvg": "assets/maps/colombia-bogota.svg"
-    },
-    {
-      "country": "秘鲁",
-      "city": "利马",
-      "date": "2021.3.5",
-      "note": "",
-      "mapSvg": "assets/maps/peru-lima.svg"
-    },
-    {
-      "country": "哥斯达黎加",
-      "city": "圣荷西",
-      "date": "2021.3.10",
-      "note": "",
-      "mapSvg": "assets/maps/costa-rica-sanjose.svg"
+      "date": "2015.2.25",
+      "mapSvg": "assets/maps/us-newyork.jpg"
     },
     {
       "country": "加拿大",
       "city": "多伦多",
-      "date": "2017.8.20",
-      "note": "",
-      "mapSvg": "assets/maps/canada-toronto.svg"
+      "date": "2018.10.7",
+      "mapSvg": "assets/maps/ca-toronto.jpg"
+    },
+    {
+      "country": "智利",
+      "city": "圣地亚哥",
+      "date": "2019.6.8",
+      "mapSvg": "assets/maps/cl-santiago.jpg"
+    },
+    {
+      "country": "秘鲁",
+      "city": "库斯科",
+      "date": "2019.7.17",
+      "mapSvg": "assets/maps/pe-cusco.jpg"
+    },
+    {
+      "country": "哥伦比亚",
+      "city": "卡塔赫纳",
+      "date": "2019.7.22",
+      "mapSvg": "assets/maps/co-cartagena.jpg"
+    },
+    {
+      "country": "哥斯达黎加",
+      "city": "圣荷西",
+      "date": "2019.8.3",
+      "mapSvg": "assets/maps/cr-sanjose.jpg"
     },
     {
       "country": "老挝",
       "city": "琅勃拉邦",
-      "date": "2023.11.5",
+      "date": "2024.10.5",
       "note": "无麦当劳门店",
-      "mapSvg": "assets/maps/laos-luangprabang.svg"
+      "mapSvg": "assets/maps/la-luangprabang.jpg"
     }
   ]
 }

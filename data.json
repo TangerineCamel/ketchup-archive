@@ -6,7 +6,9 @@
       "city": "马尼拉",
       "date": "2025.8.12",
       "photoFront": "assets/photos/philippines-manila-front.jpg",
-      "photoBack": "assets/photos/philippines-manila-back.jpg"
+      "photoBack": "assets/photos/philippines-manila-back.jpg",
+      "photoBoth": "assets/photos/philippines-manila-both.jpg",
+      "photoSpec": "assets/photos/philippines-manila-spec.jpg"
     },
     {
       "country": "马来西亚",
@@ -14,7 +16,9 @@
       "city": "槟城",
       "date": "2025.5.3",
       "photoFront": "assets/photos/malaysia-penang-front.jpg",
-      "photoBack": "assets/photos/malaysia-penang-back.jpg"
+      "photoBack": "assets/photos/malaysia-penang-back.jpg",
+      "photoBoth": "assets/photos/malaysia-penang-both.jpg",
+      "photoSpec": "assets/photos/malaysia-penang-spec.jpg"
     },
     {
       "country": "日本",
@@ -22,7 +26,9 @@
       "city": "福冈",
       "date": "2025.10.7",
       "photoFront": "assets/photos/japan-fukuoka-front.jpg",
-      "photoBack": "assets/photos/japan-fukuoka-back.jpg"
+      "photoBack": "assets/photos/japan-fukuoka-back.jpg",
+      "photoBoth": "assets/photos/japan-fukuoka-both.jpg",
+      "photoSpec": "assets/photos/japan-fukuoka-spec.jpg"
     },
     {
       "country": "澳门",
@@ -30,7 +36,9 @@
       "city": "氹仔",
       "date": "2025.6.12",
       "photoFront": "assets/photos/macau-taipa-front.jpg",
-      "photoBack": "assets/photos/macau-taipa-back.jpg"
+      "photoBack": "assets/photos/macau-taipa-back.jpg",
+      "photoBoth": "assets/photos/macau-taipa-both.jpg",
+      "photoSpec": "assets/photos/macau-taipa-spec.jpg"
     },
     {
       "country": "韩国",
@@ -38,7 +46,9 @@
       "city": "首尔",
       "date": "2026.5.5",
       "photoFront": "assets/photos/korea-seoul-front.jpg",
-      "photoBack": "assets/photos/korea-seoul-back.jpg"
+      "photoBack": "assets/photos/korea-seoul-back.jpg",
+      "photoBoth": "assets/photos/korea-seoul-both.jpg",
+      "photoSpec": "assets/photos/korea-seoul-spec.jpg"
     },
     {
       "country": "中国",
@@ -46,7 +56,9 @@
       "city": "上海",
       "date": "2025.5.12",
       "photoFront": "assets/photos/china-shanghai-front.jpg",
-      "photoBack": "assets/photos/china-shanghai-back.jpg"
+      "photoBack": "assets/photos/china-shanghai-back.jpg",
+      "photoBoth": "assets/photos/china-shanghai-both.jpg",
+      "photoSpec": "assets/photos/china-shanghai-spec.jpg"
     },
     {
       "country": "泰国",
@@ -54,7 +66,9 @@
       "city": "清迈",
       "date": "2025.4.12",
       "photoFront": "assets/photos/thailand-chiangmai-front.jpg",
-      "photoBack": "assets/photos/thailand-chiangmai-back.jpg"
+      "photoBack": "assets/photos/thailand-chiangmai-back.jpg",
+      "photoBoth": "assets/photos/thailand-chiangmai-both.jpg",
+      "photoSpec": "assets/photos/thailand-chiangmai-spec.jpg"
     },
     {
       "country": "越南",
@@ -62,7 +76,9 @@
       "city": "胡志明市",
       "date": "2025.6.1",
       "photoFront": "assets/photos/vietnam-hochiminh-front.jpg",
-      "photoBack": "assets/photos/vietnam-hochiminh-back.jpg"
+      "photoBack": "assets/photos/vietnam-hochiminh-back.jpg",
+      "photoBoth": "assets/photos/vietnam-hochiminh-both.jpg",
+      "photoSpec": "assets/photos/vietnam-hochiminh-spec.jpg"
     }
   ],
   "missed": [

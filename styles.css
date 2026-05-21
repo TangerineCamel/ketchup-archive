@@ -71,6 +71,22 @@ main {
   cursor: pointer;
   text-align: center;
   color: #111111;
+  transition: filter 0.15s ease;
+}
+
+.card p {
+  width: 152px;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  filter: brightness(0.95);
+}
+
+.card:active {
+  filter: brightness(0.88);
 }
 
 .photo-placeholder {
@@ -261,27 +277,34 @@ main {
 }
 
 .modal-image {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
   object-fit: contain;
-  display: block;
-  touch-action: pinch-zoom;
+  transform-origin: center center;
+  user-select: none;
+  -webkit-user-drag: none;
+  transition: opacity 3s ease;
 }
 
-.modal-label {
+.spec-btn {
   position: absolute;
   bottom: 16px;
-  left: 0;
-  right: 0;
-  text-align: center;
-  font-size: 10px;
-  font-family: "PingFang SC", -apple-system, BlinkMacSystemFont, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  pointer-events: none;
+  left: 50%;
+  transform: translateX(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.15s ease, filter 0.15s ease;
+  z-index: 2;
 }
 
-.modal-label-sep {
-  color: #111111;
-  margin: 0 2px;
+.spec-btn:hover {
+  filter: brightness(0.7);
+}
+
+.spec-btn:active {
+  transform: translateX(-50%) scale(0.95);
 }
 
 .modal-close {
@@ -300,4 +323,13 @@ main {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  transition: filter 0.15s ease;
+}
+
+.modal-close:hover {
+  filter: brightness(0.7);
+}
+
+.modal-close:active {
+  filter: brightness(0.5);
 }

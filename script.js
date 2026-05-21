@@ -5,13 +5,11 @@ const modalOverlay = document.getElementById('modalOverlay');
 const modalImage = document.getElementById('modalImage');
 const modalImageArea = document.getElementById('modalImageArea');
 const modalClose = document.getElementById('modalClose');
-const modalLabel = document.getElementById('modalLabel');
-const labelFront = document.getElementById('labelFront');
-const labelBack = document.getElementById('labelBack');
-const labelSep = document.querySelector('.modal-label-sep');
+const specBtn = document.getElementById('specBtn');
+const specBtnImg = document.getElementById('specBtnImg');
 
 let currentImages = [];
-let currentIndex = 0;
+let isSpecMode = false;
 
 fetch('data.json')
   .then((response) => {
@@ -43,7 +41,7 @@ function renderCollected(items) {
       <div class="card-date">${item.date}</div>
     `;
 
-    card.addEventListener('click', () => openModal([item.photoFront, item.photoBack]));
+    card.addEventListener('click', () => openModal(item));
     gallery.appendChild(card);
   });
 }
@@ -66,10 +64,20 @@ function renderMissed(items) {
   });
 }
 
-function openModal(images) {
-  currentImages = images.filter(Boolean);
-  currentIndex = 0;
-  updateModalImage();
+function openModal(item) {
+  currentImages = [item.photoBoth, item.photoSpec].filter(Boolean);
+  isSpecMode = false;
+
+  currentImages.forEach((src) => {
+    const img = new Image();
+    img.src = src;
+  });
+
+  modalImage.style.transition = 'none';
+  modalImage.style.opacity = '1';
+  modalImage.src = item.photoBoth || '';
+
+  specBtnImg.src = 'assets/icons/spec-default.svg';
   modal.classList.add('is-open');
   document.body.style.overflow = 'hidden';
 }
@@ -79,31 +87,26 @@ function closeModal() {
   document.body.style.overflow = '';
 }
 
-function updateModalImage() {
-  modalImage.src = currentImages[currentIndex] || '';
-
-  if (currentImages.length >= 2) {
-    if (currentIndex === 0) {
-      labelFront.style.color = '#111111';
-      labelBack.style.color = '#C8C8C8';
-    } else {
-      labelFront.style.color = '#C8C8C8';
-      labelBack.style.color = '#111111';
-    }
-    labelSep.style.color = '#111111';
-    modalLabel.style.display = 'block';
-  } else {
-    modalLabel.style.display = 'none';
-  }
-}
-
 modalImageArea.addEventListener('click', () => {
-  if (currentImages.length <= 1) {
-    return;
-  }
+});
 
-  currentIndex = (currentIndex + 1) % currentImages.length;
-  updateModalImage();
+specBtn.addEventListener('click', (e) => {
+  e.stopPropagation();
+  isSpecMode = !isSpecMode;
+
+  modalImage.style.transition = 'opacity 0.3s ease';
+  modalImage.style.opacity = '0';
+
+  setTimeout(() => {
+    if (isSpecMode) {
+      modalImage.src = currentImages[1] || currentImages[0];
+      specBtnImg.src = 'assets/icons/spec-active.svg';
+    } else {
+      modalImage.src = currentImages[0];
+      specBtnImg.src = 'assets/icons/spec-default.svg';
+    }
+    modalImage.style.opacity = '1';
+  }, 150);
 });
 
 modalClose.addEventListener('click', closeModal);

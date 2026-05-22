@@ -50,8 +50,14 @@ function renderMissed(items) {
     const tooltip = card.querySelector('.missed-tooltip');
 
     if (tooltip) {
+      document.body.appendChild(tooltip);
+
       mapWrap.addEventListener('mouseenter', () => tooltip.classList.add('is-visible'));
       mapWrap.addEventListener('mouseleave', () => tooltip.classList.remove('is-visible'));
+      mapWrap.addEventListener('mousemove', (e) => {
+        tooltip.style.left = (e.clientX + 12) + 'px';
+        tooltip.style.top = (e.clientY - 28) + 'px';
+      });
 
       let pressTimer;
       mapWrap.addEventListener('touchstart', (e) => {

@@ -6,8 +6,6 @@
       "city": "马尼拉",
       "date": "2025.8.12",
       "photoFront": "assets/photos/philippines-manila-front.jpg",
-      "photoBack": "assets/photos/philippines-manila-back.jpg",
-      "photoBoth": "assets/photos/philippines-manila-both.jpg",
       "photoSpec": "assets/photos/philippines-manila-spec.jpg"
     },
     {
@@ -16,8 +14,6 @@
       "city": "槟城",
       "date": "2025.5.3",
       "photoFront": "assets/photos/malaysia-penang-front.jpg",
-      "photoBack": "assets/photos/malaysia-penang-back.jpg",
-      "photoBoth": "assets/photos/malaysia-penang-both.jpg",
       "photoSpec": "assets/photos/malaysia-penang-spec.jpg"
     },
     {
@@ -26,8 +22,6 @@
       "city": "福冈",
       "date": "2025.10.7",
       "photoFront": "assets/photos/japan-fukuoka-front.jpg",
-      "photoBack": "assets/photos/japan-fukuoka-back.jpg",
-      "photoBoth": "assets/photos/japan-fukuoka-both.jpg",
       "photoSpec": "assets/photos/japan-fukuoka-spec.jpg"
     },
     {
@@ -36,8 +30,6 @@
       "city": "氹仔",
       "date": "2025.6.12",
       "photoFront": "assets/photos/macau-taipa-front.jpg",
-      "photoBack": "assets/photos/macau-taipa-back.jpg",
-      "photoBoth": "assets/photos/macau-taipa-both.jpg",
       "photoSpec": "assets/photos/macau-taipa-spec.jpg"
     },
     {
@@ -46,8 +38,6 @@
       "city": "首尔",
       "date": "2026.5.5",
       "photoFront": "assets/photos/korea-seoul-front.jpg",
-      "photoBack": "assets/photos/korea-seoul-back.jpg",
-      "photoBoth": "assets/photos/korea-seoul-both.jpg",
       "photoSpec": "assets/photos/korea-seoul-spec.jpg"
     },
     {
@@ -56,8 +46,6 @@
       "city": "上海",
       "date": "2025.5.12",
       "photoFront": "assets/photos/china-shanghai-front.jpg",
-      "photoBack": "assets/photos/china-shanghai-back.jpg",
-      "photoBoth": "assets/photos/china-shanghai-both.jpg",
       "photoSpec": "assets/photos/china-shanghai-spec.jpg"
     },
     {
@@ -66,8 +54,6 @@
       "city": "清迈",
       "date": "2025.4.12",
       "photoFront": "assets/photos/thailand-chiangmai-front.jpg",
-      "photoBack": "assets/photos/thailand-chiangmai-back.jpg",
-      "photoBoth": "assets/photos/thailand-chiangmai-both.jpg",
       "photoSpec": "assets/photos/thailand-chiangmai-spec.jpg"
     },
     {
@@ -76,46 +62,50 @@
       "city": "胡志明市",
       "date": "2025.6.1",
       "photoFront": "assets/photos/vietnam-hochiminh-front.jpg",
-      "photoBack": "assets/photos/vietnam-hochiminh-back.jpg",
-      "photoBoth": "assets/photos/vietnam-hochiminh-both.jpg",
       "photoSpec": "assets/photos/vietnam-hochiminh-spec.jpg"
     }
   ],
   "missed": [
     {
       "country": "美国",
-      "city": "纽约",
+      "city": "纽约城",
       "date": "2015.2.25",
+      "tooltipText": "纽约城麦当劳数量：约130家",
       "mapSvg": "assets/maps/us-newyork.jpg"
     },
     {
       "country": "加拿大",
       "city": "多伦多",
       "date": "2018.10.7",
+      "tooltipText": "多伦多麦当劳数量：约48家",
       "mapSvg": "assets/maps/ca-toronto.jpg"
     },
     {
       "country": "智利",
       "city": "圣地亚哥",
       "date": "2019.6.8",
+      "tooltipText": "圣地亚哥麦当劳数量：约70家",
       "mapSvg": "assets/maps/cl-santiago.jpg"
     },
     {
       "country": "秘鲁",
       "city": "库斯科",
       "date": "2019.7.17",
+      "tooltipText": "库斯科麦当劳数量：1家",
       "mapSvg": "assets/maps/pe-cusco.jpg"
     },
     {
       "country": "哥伦比亚",
       "city": "卡塔赫纳",
       "date": "2019.7.22",
+      "tooltipText": "卡塔赫纳麦当劳数量：约2家",
       "mapSvg": "assets/maps/co-cartagena.jpg"
     },
     {
       "country": "哥斯达黎加",
       "city": "圣荷西",
       "date": "2019.8.3",
+      "tooltipText": "圣荷西麦当劳数量：约5家",
       "mapSvg": "assets/maps/cr-sanjose.jpg"
     },
     {
@@ -123,6 +113,7 @@
       "city": "琅勃拉邦",
       "date": "2024.10.5",
       "note": "无麦当劳门店",
+      "tooltipText": "琅勃拉邦：无麦当劳门店",
       "mapSvg": "assets/maps/la-luangprabang.jpg"
     }
   ]

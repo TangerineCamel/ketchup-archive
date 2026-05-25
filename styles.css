@@ -153,7 +153,8 @@ main {
   padding: 36px 36px 8px 36px;
   margin-top: -36px;
   overflow-x: scroll;
-  scrollbar-width: none;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   box-sizing: content-box;
@@ -161,7 +162,45 @@ main {
 }
 
 .carousel::-webkit-scrollbar {
-  display: none;
+  height: 1px;
+}
+
+.carousel::-webkit-scrollbar-track {
+  background: transparent;
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+.carousel::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 999px;
+  transition: background 0.3s ease;
+}
+
+.carousel:hover::-webkit-scrollbar-thumb,
+.carousel:active::-webkit-scrollbar-thumb,
+.carousel.is-scrolling::-webkit-scrollbar-thumb {
+  background: #E8E8E8;
+}
+
+.carousel-scrollbar {
+  height: 3px;
+  margin: 0 36px;
+  background: transparent;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-scrollbar.is-visible {
+  opacity: 1;
+}
+
+.carousel-scrollbar-thumb {
+  height: 3px;
+  width: 24px;
+  background: #E8E8E8;
+  border-radius: 999px;
+  transform: translateX(0);
 }
 
 .missed-card {
@@ -184,8 +223,10 @@ main {
   margin: 0 auto 10px;
 }
 
-.missed-map-wrap:hover {
-  filter: brightness(0.92);
+@media (hover: hover) {
+  .missed-map-wrap:hover {
+    filter: brightness(0.92);
+  }
 }
 
 .missed-map-wrap:active {
@@ -210,8 +251,8 @@ main {
   padding: 6px 8px;
   pointer-events: none;
   opacity: 0;
-  transition: opacity 0.15s ease;
   z-index: 1000;
+  transform: translateX(-50%);
 }
 
 .missed-tooltip.is-visible {
@@ -326,6 +367,20 @@ main {
   object-fit: contain;
   display: block;
   touch-action: pinch-zoom;
+}
+
+.modal-info-tooltip {
+  position: fixed;
+  background: #111111;
+  color: #FFFFFF;
+  font-size: 10px;
+  font-family: "PingFang SC", sans-serif;
+  white-space: nowrap;
+  padding: 6px 8px;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 1001;
+  transform: translate(-50%, -100%);
 }
 
 .modal-close {

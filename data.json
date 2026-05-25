@@ -5,6 +5,7 @@
       "flag": "🇵🇭",
       "city": "马尼拉",
       "date": "2025.8.12",
+      "collector": "QM",
       "photoFront": "assets/photos/philippines-manila-front.jpg",
       "photoSpec": "assets/photos/philippines-manila-spec.jpg"
     },
@@ -13,6 +14,7 @@
       "flag": "🇲🇾",
       "city": "槟城",
       "date": "2025.5.3",
+      "collector": "QM",
       "photoFront": "assets/photos/malaysia-penang-front.jpg",
       "photoSpec": "assets/photos/malaysia-penang-spec.jpg"
     },
@@ -21,6 +23,7 @@
       "flag": "🇯🇵",
       "city": "福冈",
       "date": "2025.10.7",
+      "collector": "QM",
       "photoFront": "assets/photos/japan-fukuoka-front.jpg",
       "photoSpec": "assets/photos/japan-fukuoka-spec.jpg"
     },
@@ -29,6 +32,7 @@
       "flag": "🇲🇴",
       "city": "氹仔",
       "date": "2025.6.12",
+      "collector": "QM",
       "photoFront": "assets/photos/macau-taipa-front.jpg",
       "photoSpec": "assets/photos/macau-taipa-spec.jpg"
     },
@@ -37,6 +41,7 @@
       "flag": "🇰🇷",
       "city": "首尔",
       "date": "2026.5.5",
+      "collector": "QM",
       "photoFront": "assets/photos/korea-seoul-front.jpg",
       "photoSpec": "assets/photos/korea-seoul-spec.jpg"
     },
@@ -45,6 +50,7 @@
       "flag": "🇨🇳",
       "city": "上海",
       "date": "2025.5.12",
+      "collector": "QM",
       "photoFront": "assets/photos/china-shanghai-front.jpg",
       "photoSpec": "assets/photos/china-shanghai-spec.jpg"
     },
@@ -53,6 +59,7 @@
       "flag": "🇹🇭",
       "city": "清迈",
       "date": "2025.4.12",
+      "collector": "QM",
       "photoFront": "assets/photos/thailand-chiangmai-front.jpg",
       "photoSpec": "assets/photos/thailand-chiangmai-spec.jpg"
     },
@@ -61,6 +68,7 @@
       "flag": "🇻🇳",
       "city": "胡志明市",
       "date": "2025.6.1",
+      "collector": "QM",
       "photoFront": "assets/photos/vietnam-hochiminh-front.jpg",
       "photoSpec": "assets/photos/vietnam-hochiminh-spec.jpg"
     }

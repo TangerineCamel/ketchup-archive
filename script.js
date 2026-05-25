@@ -90,6 +90,15 @@ function renderCollected(items) {
     card.addEventListener('click', () => openModal(item));
     gallery.appendChild(card);
   });
+
+  setTimeout(() => {
+    items.forEach(item => {
+      if (item.photoSpec) {
+        const img = new Image();
+        img.src = item.photoSpec;
+      }
+    });
+  }, 2000);
 }
 
 function renderMissed(items) {

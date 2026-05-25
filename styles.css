@@ -153,35 +153,16 @@ main {
   padding: 36px 36px 8px 36px;
   margin-top: -36px;
   overflow-x: scroll;
-  scrollbar-width: thin;
-  scrollbar-color: transparent transparent;
+  scrollbar-width: none;
   scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
   box-sizing: content-box;
   scroll-padding-left: 36px;
 }
 
 .carousel::-webkit-scrollbar {
-  height: 1px;
+  display: none;
 }
 
-.carousel::-webkit-scrollbar-track {
-  background: transparent;
-  margin-left: 36px;
-  margin-right: 36px;
-}
-
-.carousel::-webkit-scrollbar-thumb {
-  background: transparent;
-  border-radius: 999px;
-  transition: background 0.3s ease;
-}
-
-.carousel:hover::-webkit-scrollbar-thumb,
-.carousel:active::-webkit-scrollbar-thumb,
-.carousel.is-scrolling::-webkit-scrollbar-thumb {
-  background: #E8E8E8;
-}
 
 .carousel-scrollbar {
   height: 3px;

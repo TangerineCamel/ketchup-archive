@@ -45,6 +45,25 @@ carousel.addEventListener('scroll', () => {
   }
 });
 
+window.addEventListener('scroll', () => {
+  if (activeTooltip) {
+    activeTooltip.style.transition = 'none';
+    activeTooltip.style.opacity = '0';
+    if (activeTooltipTimer) clearTimeout(activeTooltipTimer);
+    activeTooltip = null;
+  }
+}, { passive: true });
+
+document.addEventListener('click', (e) => {
+  if (!activeTooltip) return;
+  if (!e.target.closest('.missed-map-wrap')) {
+    activeTooltip.style.transition = 'none';
+    activeTooltip.style.opacity = '0';
+    if (activeTooltipTimer) clearTimeout(activeTooltipTimer);
+    activeTooltip = null;
+  }
+}, { passive: true });
+
 window.addEventListener('resize', updateCarouselScrollbar);
 
 fetch('data.json')
